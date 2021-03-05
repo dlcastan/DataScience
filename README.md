@@ -7,7 +7,7 @@ Los modelos que utilizo en la App son Random Forest, Extra Trees Classifier y Re
 Aplicación creada por [Diego Lopez Castan](https://www.diegolopezcastan.com/).
 
 ## Preview de la App
-![Preview de la App |635x380](WebAPPDS.mp4)
+![Preview de la App |635x380](WebAPPDS.gif)
 
 ## Instalación
 Dependencias que tenes que tener:
