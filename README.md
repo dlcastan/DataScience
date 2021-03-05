@@ -20,11 +20,13 @@ python -m spacy download es_core_news_sm
 ```
 
 ## Generación de los modelos
-Correr 
+Generar modelos 
 ```console
 streamlit run dev.py
+```
 
 ## Correr App
 Correr
 ```console
 streamlit run app.py
+```
