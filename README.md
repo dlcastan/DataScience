@@ -1,5 +1,5 @@
 # DataScience Interactive Multi Web App con Streamlit
-Multi Web App creada con Streamlit para manejar textos. Con la aplicación vas a poder toketizar, lematizar e identificar el tipo de letra y las entidades detectadas.
+Multi Web App creada con Streamlit para manejar textos. Con la aplicación vas a poder toketizar, lematizar e identificar el tipo de palabra y las entidades detectadas.
 También al introducir un texto vas a poder ver si la review es negativa o positiva y si se trata de una opinión o de un hecho.
 Por último vas a poder elegir entre tres modelos, para determinar si la review ingresada es positiva o negativa.
 Los modelos que utilizo en la App son Random Forest, Extra Trees Classifier y Red Neuronal Keras.
@@ -22,7 +22,7 @@ python -m spacy download es_core_news_sm
 ## Generación de los modelos
 Generar modelos 
 ```console
-streamlit run dev.py
+python dev.py
 ```
 
 ## Correr App

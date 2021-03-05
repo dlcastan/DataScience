@@ -114,17 +114,21 @@ y = y.astype('int')
 etc = ExtraTreesClassifier()
 etc.fit(x, y)
 
+# Grabo el modelo
 pickle.dump(etc, open("tree.pkl", "wb"))
+
+# Grabo el vectorizador
 pickle.dump(vectorizer, open("vec.pkl", "wb"))
 
 # Armo modelo RandomForest
 rf = RandomForestClassifier()
 rf.fit(x, y)
 
+# Grabo el modelo
 pickle.dump(rf, open("rf.pkl", "wb"))
 
 
-# Armo modelo Red Neuronal Keras'
+# Armo modelo Red Neuronal Keras
 lr = 0.01        
 nn = [5000, 4, 1]  
 
@@ -139,5 +143,7 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 
 # Entrenamos al modelo
-#model.fit(x, y, epochs=5, batch_size=200)
-#model.save('model.h5')
+model.fit(x, y, epochs=5, batch_size=200)
+
+# Grabo el modelo
+model.save('model.h5')
