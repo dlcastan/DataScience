@@ -19,6 +19,12 @@ pip install textblob
 python -m spacy download es_core_news_sm
 ```
 
+## Clonar el repositorio
+Generar modelos 
+```console
+git clone https://github.com/dlcastan/DataScience.git
+```
+
 ## Generación de los modelos
 Generar modelos 
 ```console
